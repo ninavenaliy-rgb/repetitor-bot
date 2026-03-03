@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+.venv/
+
+# Environment & secrets
+.env
+credentials.json
+token.json
+
+# Database
+*.db
+*.sqlite3
+
+# Logs
+logs/
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+
+# Alembic generated migrations
+alembic/versions/*.py
+!alembic/versions/__init__.py
+
+# Deploy scripts (internal use only)
+deploy*.sh
+deploy*.exp
+fix_everything.*
+setup_ssh.sh
+auto_deploy.py
+
+# Internal / temporary docs
+DEPLOY.md
+DEPLOY_SUBSCRIPTION.md
+FINAL_DEPLOY.md
+RUN_THIS.txt
+SCALING_RECOMMENDATIONS.md
+SUBSCRIPTION_ARCHITECTURE.md
+SUBSCRIPTION_README.md
+SUBSCRIPTION_RISK_AUDIT.md
+SUBSCRIPTION_SUMMARY.md
+TELEGRAM_STARS_SETUP.md
+COMPETITIVE_ANALYSIS.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

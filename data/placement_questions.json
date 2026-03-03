@@ -1,0 +1,250 @@
+[
+  {
+    "id": "a1_01",
+    "cefr_level": "A1",
+    "question": "She ___ a student.",
+    "options": ["am", "is", "are", "be"],
+    "correct": 1,
+    "category": "grammar"
+  },
+  {
+    "id": "a1_02",
+    "cefr_level": "A1",
+    "question": "I ___ from Russia.",
+    "options": ["is", "am", "are", "be"],
+    "correct": 1,
+    "category": "grammar"
+  },
+  {
+    "id": "a1_03",
+    "cefr_level": "A1",
+    "question": "They ___ in a big house.",
+    "options": ["lives", "living", "live", "lived"],
+    "correct": 2,
+    "category": "grammar"
+  },
+  {
+    "id": "a1_04",
+    "cefr_level": "A1",
+    "question": "What is the opposite of 'hot'?",
+    "options": ["warm", "cool", "cold", "freezing"],
+    "correct": 2,
+    "category": "vocabulary"
+  },
+  {
+    "id": "a1_05",
+    "cefr_level": "A1",
+    "question": "___ you like coffee?",
+    "options": ["Does", "Do", "Is", "Are"],
+    "correct": 1,
+    "category": "grammar"
+  },
+  {
+    "id": "a2_01",
+    "cefr_level": "A2",
+    "question": "She ___ to the store yesterday.",
+    "options": ["go", "goes", "went", "gone"],
+    "correct": 2,
+    "category": "grammar"
+  },
+  {
+    "id": "a2_02",
+    "cefr_level": "A2",
+    "question": "I have ___ been to London.",
+    "options": ["ever", "never", "always", "yet"],
+    "correct": 1,
+    "category": "grammar"
+  },
+  {
+    "id": "a2_03",
+    "cefr_level": "A2",
+    "question": "There aren't ___ apples left.",
+    "options": ["some", "any", "no", "much"],
+    "correct": 1,
+    "category": "grammar"
+  },
+  {
+    "id": "a2_04",
+    "cefr_level": "A2",
+    "question": "He is ___ than his brother.",
+    "options": ["tall", "taller", "tallest", "more tall"],
+    "correct": 1,
+    "category": "grammar"
+  },
+  {
+    "id": "a2_05",
+    "cefr_level": "A2",
+    "question": "I ___ TV when the phone rang.",
+    "options": ["watch", "watched", "was watching", "have watched"],
+    "correct": 2,
+    "category": "grammar"
+  },
+  {
+    "id": "b1_01",
+    "cefr_level": "B1",
+    "question": "If I ___ you, I would apologize.",
+    "options": ["am", "was", "were", "be"],
+    "correct": 2,
+    "category": "grammar"
+  },
+  {
+    "id": "b1_02",
+    "cefr_level": "B1",
+    "question": "She has been living here ___ 2010.",
+    "options": ["for", "since", "from", "during"],
+    "correct": 1,
+    "category": "grammar"
+  },
+  {
+    "id": "b1_03",
+    "cefr_level": "B1",
+    "question": "The book ___ by millions of people.",
+    "options": ["has read", "has been read", "is reading", "reads"],
+    "correct": 1,
+    "category": "grammar"
+  },
+  {
+    "id": "b1_04",
+    "cefr_level": "B1",
+    "question": "I wish I ___ more free time.",
+    "options": ["have", "had", "having", "would have"],
+    "correct": 1,
+    "category": "grammar"
+  },
+  {
+    "id": "b1_05",
+    "cefr_level": "B1",
+    "question": "He suggested ___ to the cinema.",
+    "options": ["to go", "going", "go", "went"],
+    "correct": 1,
+    "category": "grammar"
+  },
+  {
+    "id": "b1_06",
+    "cefr_level": "B1",
+    "question": "Choose the correct word: 'The company is looking for ___ candidates.'",
+    "options": ["convenient", "suitable", "comfortable", "proper"],
+    "correct": 1,
+    "category": "vocabulary"
+  },
+  {
+    "id": "b2_01",
+    "cefr_level": "B2",
+    "question": "Had I known about the delay, I ___ earlier.",
+    "options": ["would leave", "would have left", "had left", "will leave"],
+    "correct": 1,
+    "category": "grammar"
+  },
+  {
+    "id": "b2_02",
+    "cefr_level": "B2",
+    "question": "Not until I got home ___ I had left my keys at the office.",
+    "options": ["I realized", "did I realize", "I did realize", "realized I"],
+    "correct": 1,
+    "category": "grammar"
+  },
+  {
+    "id": "b2_03",
+    "cefr_level": "B2",
+    "question": "The project is ___ to be completed by Friday.",
+    "options": ["due", "bound", "meant", "supposed"],
+    "correct": 0,
+    "category": "vocabulary"
+  },
+  {
+    "id": "b2_04",
+    "cefr_level": "B2",
+    "question": "She ___ have left already; her car is gone.",
+    "options": ["should", "must", "can", "would"],
+    "correct": 1,
+    "category": "grammar"
+  },
+  {
+    "id": "b2_05",
+    "cefr_level": "B2",
+    "question": "The meeting was called ___ due to the storm.",
+    "options": ["out", "off", "up", "away"],
+    "correct": 1,
+    "category": "vocabulary"
+  },
+  {
+    "id": "c1_01",
+    "cefr_level": "C1",
+    "question": "Seldom ___ such a brilliant performance.",
+    "options": ["I have seen", "have I seen", "I saw", "did I saw"],
+    "correct": 1,
+    "category": "grammar"
+  },
+  {
+    "id": "c1_02",
+    "cefr_level": "C1",
+    "question": "The proposal was met with ___ opposition from the board.",
+    "options": ["fierce", "strong", "hard", "rough"],
+    "correct": 0,
+    "category": "vocabulary"
+  },
+  {
+    "id": "c1_03",
+    "cefr_level": "C1",
+    "question": "He couldn't help but ___ at the absurdity of the situation.",
+    "options": ["to laugh", "laughing", "laugh", "laughed"],
+    "correct": 2,
+    "category": "grammar"
+  },
+  {
+    "id": "c1_04",
+    "cefr_level": "C1",
+    "question": "The new policy will come ___ effect next month.",
+    "options": ["in", "into", "to", "under"],
+    "correct": 1,
+    "category": "vocabulary"
+  },
+  {
+    "id": "c1_05",
+    "cefr_level": "C1",
+    "question": "It's high time we ___ a decision.",
+    "options": ["make", "made", "making", "will make"],
+    "correct": 1,
+    "category": "grammar"
+  },
+  {
+    "id": "c2_01",
+    "cefr_level": "C2",
+    "question": "The treaty ___ notwithstanding, hostilities resumed.",
+    "options": ["signed", "having been signed", "being signed", "to sign"],
+    "correct": 1,
+    "category": "grammar"
+  },
+  {
+    "id": "c2_02",
+    "cefr_level": "C2",
+    "question": "His argument was ___ at best, lacking any empirical evidence.",
+    "options": ["specious", "special", "spacious", "specific"],
+    "correct": 0,
+    "category": "vocabulary"
+  },
+  {
+    "id": "c2_03",
+    "cefr_level": "C2",
+    "question": "Were it not for her ___, the project would have collapsed.",
+    "options": ["tenacity", "tendency", "tension", "tenure"],
+    "correct": 0,
+    "category": "vocabulary"
+  },
+  {
+    "id": "c2_04",
+    "cefr_level": "C2",
+    "question": "The politician's speech was nothing ___ a thinly veiled attack.",
+    "options": ["less than", "short of", "but", "other than"],
+    "correct": 2,
+    "category": "grammar"
+  },
+  {
+    "id": "c2_05",
+    "cefr_level": "C2",
+    "question": "Scarcely had the curtain risen ___ the audience burst into applause.",
+    "options": ["than", "when", "that", "before"],
+    "correct": 1,
+    "category": "grammar"
+  }
+]

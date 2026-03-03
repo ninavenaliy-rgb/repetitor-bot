@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutor Dashboard — {{ tutor.name }}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <style>
+        .metrics-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
+        .metric-card { background: var(--pico-card-background-color); padding: 1.5rem; border-radius: 8px; text-align: center; border: 1px solid var(--pico-muted-border-color); }
+        .metric-value { font-size: 2rem; font-weight: bold; color: var(--pico-primary); }
+        .metric-label { color: var(--pico-muted-color); font-size: 0.9rem; }
+        .status-good { color: #22c55e; }
+        .status-warn { color: #f59e0b; }
+        .status-bad { color: #ef4444; }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <header>
+            <h1>Dashboard</h1>
+            <p>Welcome, <strong>{{ tutor.name }}</strong></p>
+        </header>
+
+        <section class="metrics-grid">
+            <div class="metric-card">
+                <div class="metric-value">{{ metrics.total_students }}</div>
+                <div class="metric-label">Active Students</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value">{{ metrics.upcoming_lessons }}</div>
+                <div class="metric-label">Upcoming Lessons (7 days)</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value">{{ metrics.completed_this_month }}</div>
+                <div class="metric-label">Completed This Month</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value {% if metrics.no_show_rate > 15 %}status-bad{% elif metrics.no_show_rate > 5 %}status-warn{% else %}status-good{% endif %}">
+                    {{ metrics.no_show_rate }}%
+                </div>
+                <div class="metric-label">No-Show Rate (30 days)</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Students</h2>
+            {% if students %}
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Level</th>
+                        <th>Goal</th>
+                        <th>Joined</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for student in students %}
+                    <tr>
+                        <td>{{ student.name }}</td>
+                        <td>{{ student.cefr_level }}</td>
+                        <td>{{ student.goal }}</td>
+                        <td>{{ student.joined }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            {% else %}
+            <p>No students yet. Share your bot link to start getting students!</p>
+            {% endif %}
+        </section>
+
+        <footer>
+            <small>Repetitor Bot Dashboard &mdash; Powered by AI</small>
+        </footer>
+    </main>
+</body>
+</html>
