@@ -1,5 +1,13 @@
 # Repetitor Bot
 
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)
+![aiogram](https://img.shields.io/badge/aiogram-3.x-009688?logo=telegram&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-2.0-red)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-green?logo=fastapi)
+![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o--mini-412991?logo=openai&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 **Production-ready Telegram bot for language tutors** — automates student management, scheduling, AI-powered homework checking, payments, and engagement.
 
 Built with Python, aiogram 3, SQLAlchemy 2, FastAPI. Designed for solo tutors and small language schools.
